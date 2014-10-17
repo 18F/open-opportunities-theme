@@ -1,0 +1,57 @@
+{
+  "Project": "Working Group",
+  "Project_plural": "Working Groups",
+  "Project_indefinite": "a Working Group",
+  "Project_plural_indefinite": "some Working Groups",
+  "a_Project": "a Working Group",
+  "A_Project": "A Working Group",
+  "A_Project_Owner" : "A Working Group Owner",
+  "Project_Owner_plural" : "Working Group Owners",
+  "project" : "working group",
+  "project_plural" : "working groups",
+
+  "Task" : "Opportunity",
+  "Task_plural" : "Opportunities",
+  "Task_indefinite" : "an Opportunity",
+  "Task_plural_indefinite": "some Opportunities",
+  "a_Task" : "an Opportunity",
+  "A_Task" : "An Opportunity",
+  "A_Task_Owner" : "An Opportunity Owner",
+  "task" : "opportunity",
+  "task_plural" : "opportunities",
+
+  "like" : "like",
+  "like_plural" : "likes",
+
+  "volunteer" : "volunteer",
+  "volunteer_plural" : "volunteers",
+
+  "Browse" : "Browse",
+
+  "home" : {
+    "headline" : "Making Government Innovation Happen",
+    "subhead" : "a distributed approach to government problem solving",
+    "calltoaction" : "Get Started Today"
+  },
+
+  "commonAPI" : {
+    "unsupported" : "Unsupported operation."
+  },
+
+  "projectAPI" : {
+    "errMsg" : {
+      "lookup" : "'Error looking up $t(project).",
+      "lookup_plural" : "Error looking up $t(project_plural).",
+      "count" : "Error looking up $t(project) counts.",
+      "create" : "Error creating $t(project).",
+      "ownerStore" : "Error storing $t(project) owner."
+    }
+  },
+
+  "taskAPI" : {
+    "errMsg" : {
+      "likes" : "Error looking up $(task) $(like_plural).",
+      "volunteers" : "Error looking up $t(task) $t(volunteer_plural)."
+    }
+  }
+}
