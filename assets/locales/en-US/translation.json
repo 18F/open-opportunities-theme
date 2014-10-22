@@ -1,37 +1,42 @@
 {
   "Project": "Working Group",
-  "Project_plural": "Working Groups",
-  "Project_indefinite": "a Working Group",
-  "Project_plural_indefinite": "some Working Groups",
-  "a_Project": "a Working Group",
-  "A_Project": "A Working Group",
-  "A_Project_Owner" : "A Working Group Owner",
-  "Project_Owner_plural" : "Working Group Owners",
+  "ProjectPlural": "Working Groups",
+  "ProjectIndefinite": "a Working Group",
+  "ProjectPluralIndefinite": "some Working Groups",
+  "ProjectOwnerIndefinite" : "A Working Group Owner",
+  "ProjectOwnerPlural" : "Working Group Owners",
   "project" : "working group",
-  "project_plural" : "working groups",
+  "projectPlural" : "working groups",
 
   "Task" : "Opportunity",
-  "Task_plural" : "Opportunities",
-  "Task_indefinite" : "an Opportunity",
-  "Task_plural_indefinite": "some Opportunities",
-  "a_Task" : "an Opportunity",
-  "A_Task" : "An Opportunity",
-  "A_Task_Owner" : "An Opportunity Owner",
+  "TaskPlural" : "Opportunities",
+  "TaskIndefinite" : "an Opportunity",
+  "TaskPluralIndefinite": "some Opportunities",
+  "TaskOwnerIndefinite" : "An Opportunity Owner",
   "task" : "opportunity",
-  "task_plural" : "opportunities",
+  "taskPlural" : "opportunities",
 
   "like" : "like",
-  "like_plural" : "likes",
+  "likePlural" : "likes",
 
   "volunteer" : "volunteer",
-  "volunteer_plural" : "volunteers",
+  "volunteerPlural" : "volunteers",
 
   "Browse" : "Browse",
+
+  "loginModal" : {
+    "tosCheckbox": "I am a federal employee and agree to the "
+  },
+
+  "volunteerModal": {
+    "notifySupervisor": "You’ve cleared your participation with your managers and your agency expects no reimbursement or formal agreement.",
+    "cantCancel": "You’ll complete your task as agreed from the outset to the best of your ability and make adjustments if you get feedback."
+  },
 
   "home" : {
     "headline" : "Making Government Innovation Happen",
     "subhead" : "a distributed approach to government problem solving",
-    "calltoaction" : "Get Started Today"
+    "callToAction" : "Get Started Today"
   },
 
   "commonAPI" : {
@@ -41,7 +46,7 @@
   "projectAPI" : {
     "errMsg" : {
       "lookup" : "'Error looking up $t(project).",
-      "lookup_plural" : "Error looking up $t(project_plural).",
+      "lookupPlural" : "Error looking up $t(projectPlural).",
       "count" : "Error looking up $t(project) counts.",
       "create" : "Error creating $t(project).",
       "ownerStore" : "Error storing $t(project) owner."
@@ -50,8 +55,8 @@
 
   "taskAPI" : {
     "errMsg" : {
-      "likes" : "Error looking up $(task) $(like_plural).",
-      "volunteers" : "Error looking up $t(task) $t(volunteer_plural)."
+      "likes" : "Error looking up $(task) $(likePlural).",
+      "volunteers" : "Error looking up $t(task) $t(volunteerPlural)."
     }
   }
 }
