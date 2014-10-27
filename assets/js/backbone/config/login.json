@@ -5,7 +5,7 @@
   "config": {
   },
   "local": {
-    "enabled": false,
+    "enabled": true,
     "expand": true,
     "logout": true
   },
