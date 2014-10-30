@@ -24,6 +24,11 @@
 
   "Browse" : "Browse",
 
+  "taskPage" : {
+    "volunteerButton" : "I'm in!",
+    "volunteeredButton" : "Volunteered!"
+  },
+
   "loginModal" : {
     "tosCheckbox": "I am a federal employee and agree to the "
   },
