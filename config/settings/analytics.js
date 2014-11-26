@@ -3,7 +3,7 @@ module.exports = {
   //ANALYTICS SETTINGS
   google: {
     enabled: true,
-    key: 'UA-48605964-16'
+    key: 'UA-48605964-17'
   },
   piwik: {
     enabled: false,
