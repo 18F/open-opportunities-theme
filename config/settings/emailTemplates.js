@@ -63,6 +63,13 @@ module.exports = {
       subject: 'Take A Look At This Profile',
       templateLocals: { profileLink: '', profileTitle: '', profileName: '', profileLocation: '', profileAgency: '' },
       layoutLocals: { }
+    },
+    'welcomeUser': {
+      layout: 'default',
+      template: 'welcomeUser',
+      subject: 'Welcome to <%=globals.systemName %>',
+      templateLocals: { },
+      layoutLocals: { }
     }
   }
 

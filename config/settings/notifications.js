@@ -74,6 +74,12 @@
         emailName: 'userPasswordResetEmail'
       }
     },
+    'preflightWelcomeUser': {
+      method: 'prepareWelcomeUserEmail',
+      settings: {
+        emailName: 'welcomeUser'
+      }
+    },
     'bypass': {
       name: 'bypass',
       method: 'passThrough',
@@ -129,6 +135,18 @@
         }
       }
     },
+    'welcomeUser': {
+      audience:{
+        'user': {
+          strategy: {
+            'welcomeUser': {
+              preflight: ['preflightWelcomeUser'],
+              delivery: 'sendSimpleEmail'
+            }
+          }
+        }
+      }
+    },
     'projectCommentAdded': {
       audience:{
         'projectOwners': {
@@ -174,7 +192,7 @@
         'taskOwners': {
           strategy: {
             'contactTaskOwnersOnVolunteerEmail': {
-              preflight: ['preflightTaskVolunteerOwnerEmail'],
+              preflight: ['preflightTaskVolunteerOwner'],
               delivery: 'sendSimpleEmail'
             }
           }
