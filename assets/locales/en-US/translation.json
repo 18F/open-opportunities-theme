@@ -30,7 +30,8 @@
   },
 
   "loginModal" : {
-    "tosCheckbox": "I am a federal employee and agree to the "
+    "tosCheckbox": "I am a federal employee and agree to the ",
+    "emailAddress": "Official Government Email Address"
   },
 
   "volunteerModal": {
