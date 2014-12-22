@@ -9,5 +9,9 @@ module.exports = {
     enabled: false,
     host: '',
     key: ''
+  },
+  dap: {
+    enabled: true,
+    source: 'https://dvs6mwdoj87wa.cloudfront.net/dap.min.js'
   }
 };
