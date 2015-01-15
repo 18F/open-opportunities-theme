@@ -40,9 +40,10 @@
   },
 
   "home" : {
-    "headline" : "Making Government Innovation Happen",
-    "subhead" : "a distributed approach to government problem solving",
-    "callToAction" : "Get Started Today"
+    "headline" : "Open Opportunities",
+    "subhead" : "Discover projects across government that will help you build skills and make connections.",
+    "tagline" : "Building a 21st century government, together",
+    "callToAction" : "Browse Opportunities"
   },
 
   "commonAPI" : {
