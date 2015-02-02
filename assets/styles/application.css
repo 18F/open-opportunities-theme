@@ -311,8 +311,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px;
 }
 
-.navbar-side > .nav > li > a {
+.navbar-side > .nav > li > a,
+.navbar-side > .nav > li > .no-link {
   padding: 5px 15px;
+}
+
+.navbar-side > .nav > li > .no-link {
+  display: block;
 }
 
 ul.nav-search > li {
@@ -1365,6 +1370,11 @@ ul.task-tags > li {
 
 .task-show-creation > time {
   font-weight: bold;
+}
+
+#stateFilters label {
+  display: block;
+  font-weight: normal;
 }
 
 /**********************************
