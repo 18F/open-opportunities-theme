@@ -1,6 +1,7 @@
 {
   "signin": true,
   "oauth": [
+    "myusa"
   ],
   "config": {
   },
