@@ -1,8 +1,16 @@
 {
   "signin": true,
   "oauth": [
+    "myusa"
   ],
   "config": {
+    "myusa": {
+      "name": "MyUSA",
+      "image": "/images/login/myusa.png",
+      "endpoint": "/api/auth/oauth/myusa",
+      "params": { "scope": ["profile.email", "profile.first_name", "profile.last_name"]
+    }
+}
   },
   "local": {
     "enabled": true,
