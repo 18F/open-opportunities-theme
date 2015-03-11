@@ -12,6 +12,6 @@ module.exports = {
   },
   dap: {
     enabled: true,
-    source: 'https://dvs6mwdoj87wa.cloudfront.net/dap.min.js'
+    source: 'https://analytics.usa.gov/dap/dap.min.js'
   }
 };
