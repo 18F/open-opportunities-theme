@@ -227,6 +227,10 @@ input[type="submit"] {
   border-radius: 0 0 3px 3px;
 }
 
+.select2-container-multi .select2-choices .select2-search-field {
+  width: 100%;
+}
+
 .select2-container-multi .select2-choices .select2-search-choice {
   margin: 5px 0 3px 5px;
 }
