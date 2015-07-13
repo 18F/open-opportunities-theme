@@ -205,6 +205,10 @@ input[type="submit"] {
   border-radius: 3px;
 }
 
+.modal-content textarea {
+  resize: vertical;
+}
+
 .modal-footer-text {
   font-size: 13px;
   text-align: left;
@@ -288,10 +292,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
 }
 
-.navbar .nav .divider-vertical {
+.navbar .nav .navbar-divider {
+  /* vertical divider */
   background-color: white;
   height: 40px;
   width: 1px;
+}
+
+@media (max-width: 768px) {
+  /* horizontal divider */
+  .navbar .nav .navbar-divider {
+    height: 1px;
+    width: 100%;
+  }
 }
 
 #navbar-profile {
@@ -430,6 +443,17 @@ ul.metrics > ul > li {
   padding-top: 1px;
   padding-bottom: 1px;
   margin-bottom: 2px;
+}
+
+.task-metrics-table th:first-child {
+  text-align: left;
+}
+.task-metrics-table th {
+  text-align: right;
+}
+.task-metrics-table td {
+  width: 15%;
+  text-align: right;
 }
 
 /*****************
@@ -740,15 +764,6 @@ a.delete-projectowner, a.delete-volunteer {
   color: #666;
   font-size: 7px;
 }
-
-.project-people {
-  height: 40px;
-  width: 40px;
-  max-height: 40px;
-  border-radius: 25px;
-  vertical-align: baseline;
-}
-
 .project-comments {
   margin-bottom: 20px;
 }
@@ -759,9 +774,39 @@ a.delete-projectowner, a.delete-volunteer {
   cursor: pointer;
 }
 
+.project-people-div img {
+  height: 40px;
+  width: 40px;
+  max-height: 40px;
+  border-radius: 25px;
+}
+
+.project-people-show-div {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: top;
+  padding: 0px 3px 0px 3px;
+  width: 70px;
+}
+
+.project-people-show-div img {
+  height: 40px;
+  width: 40px;
+  max-height: 40px;
+  border-radius: 25px;
+}
+
+.project-people-show-label {
+  font-size: 11px;
+  color: #606060;
+  font-weight: 300;
+  display: block;
+  max-width: 70px;
+}
+
 .project-people-space {
-  margin-left: 10px;
-  margin-right: 10px;
   position: relative;
   display: inline-block;
 }
