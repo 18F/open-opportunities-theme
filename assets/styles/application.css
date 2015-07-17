@@ -97,6 +97,15 @@ input {
   box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
 
+.tight-box {
+  margin-bottom: 10px;
+  background-color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
 .box-main {
   padding: 10px;
   padding-left: 20px;
@@ -1737,4 +1746,41 @@ ul.task-tags > li {
     font-size: 96px;
     line-height: 96px;
   }
+}
+
+.export-button {
+   font-size: 1.5em;
+   line-height: 34px;
+ }
+ 
+ .nav-tabs > .export-button {
+   line-height: 42px;
+ }
+ 
+/* PeopleMap */
+
+.country {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.userDot {
+  fill: steelblue;
+  stroke: #fff;
+  fill-opacity: .8;
+}
+
+.userDot-select {
+  fill: #FFCB32;
+}
+
+.d3-tooltip {
+  background-color: rgba(87, 129, 175, 0.7);
+  margin: 10px;
+  width: 240px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
