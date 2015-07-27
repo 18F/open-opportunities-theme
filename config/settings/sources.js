@@ -56,7 +56,8 @@
       ],
       include: [
         'name',
-        'type'
+        'type',
+        'updatedAt'
       ]
     },
     'wikipedia': {
