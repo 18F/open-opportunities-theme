@@ -23,5 +23,11 @@
   "profile": {
     "edit": true,
     "editUrl": null
+  },
+  "agency": {
+    "enabled": true
+  },
+  "location": {
+    "enabled": true
   }
 }
