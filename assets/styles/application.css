@@ -1404,6 +1404,7 @@ form.comment-submit .input-group-btn {
 ul.task-tags > li {
   background-color: #FFCB32;
   font-size: 10px;
+  word-break: break-all;
 }
 
 .task-show-description {
@@ -1436,6 +1437,43 @@ ul.task-tags > li {
 #stateFilters label {
   display: block;
   font-weight: normal;
+}
+
+#task-form fieldset aside a,
+#task-form fieldset aside a:hover,
+#task-form fieldset aside a:focus {
+  color: #00FFFF;
+  text-decoration: underline;
+}
+#task-form fieldset aside ol,
+#task-form fieldset aside ul {
+  padding-left: 1.5em;
+}
+
+#task-form fieldset h3 {
+  padding-left: 0;
+}
+
+#task-form .tag-row {
+  margin-top: 2em;
+}
+
+#task-form fieldset {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#task-form fieldset:first-child {
+  margin-top: 0;
+}
+
+#task-form .buttons {
+  margin-top: 2em;
+  text-align: right;
+}
+
+#task-form .buttons .btn {
+  margin-left: 24px;
 }
 
 /**********************************
@@ -1510,7 +1548,7 @@ ul.task-tags > li {
 =  TASKS MADLIBS FORM
 ******************/
 #task-form {
-  line-height: 2.1em;
+  line-height: 1.3em;
 }
 
 #task-form .select2-container-multi {
