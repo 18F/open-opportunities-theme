@@ -60,6 +60,13 @@ input {
   padding: 0 0 0 5px;
 }
 
+.overflow-x {
+  overflow-x: auto;
+}
+.overflow-x th {
+  white-space: pre-line;
+}
+
 /* Override bootstrap's .row margins for mobile & tablet */
 @media (max-width: 978px) {
   .row {
