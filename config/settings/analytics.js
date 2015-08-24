@@ -12,6 +12,6 @@ module.exports = {
   },
   dap: {
     enabled: true,
-    source: 'https://analytics.usa.gov/dap/dap.min.js'
+    source: 'https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA'
   }
 };
