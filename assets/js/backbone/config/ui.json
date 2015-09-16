@@ -6,7 +6,7 @@
 	  "useSupervisorEmail": false
   },
   "home": {
-    "logged_in_path": "/tasks"
+    "logged_in_path": "/dashboard"
   },
   "browse": {
     "pageSize" : 27,
