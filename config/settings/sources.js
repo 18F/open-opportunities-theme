@@ -57,6 +57,7 @@
       include: [
         'name',
         'type',
+        'data',
         'updatedAt'
       ]
     },
