@@ -103,7 +103,9 @@ input {
   -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
   box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
-
+.equal-box {
+  padding: 10px;
+}
 .tight-box {
   margin-bottom: 10px;
   background-color: #fff;
@@ -513,6 +515,17 @@ ul.password-rules {
 
 .password-rules .error {
   color: #c12e2a;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background: #89a6c7;
+  color: #333333;
+  opacity: 0.8;
+  border-radius: 10%;
+}
+
+.custom-popup .leaflet-popup-tip-container {
+  display: none;
 }
 
 /*****************
@@ -1041,6 +1054,26 @@ body > .popover {
   margin-top: 10px;
 }
 
+.profile-tags .tag-title {
+  margin-top: .3em;
+}
+
+.profile-tags .tag-title > h2 {
+  color: black;
+  font-size: 14px;
+  margin-bottom: .3em;
+}
+
+.edit-profile .tag-title {
+  margin-top: 0px;
+}
+
+.edit-profile .tag-title h2 {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .tag-delete {
   cursor: pointer;
 }
@@ -1480,10 +1513,36 @@ form.comment-submit .input-group-btn {
   overflow-y: auto;
 }
 
+.task-container {
+  padding-bottom: 20px;
+}
+
+.task-container h2 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: .1em;
+  margin-top: .3em;
+}
+
+.task-container .table>tbody>tr>td,
+.task-container .table>tbody>tr>th,
+.task-container .table>thead>tr>td,
+.task-container .table>thead>tr>th {
+  border-top: none;
+}
 .task-title {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
+  -ms-word-break: break-all;
+  /* Be VERY careful with this, breaks normal words wh_erever */
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
 }
 
 .task-project {
@@ -1495,6 +1554,37 @@ form.comment-submit .input-group-btn {
 
 .task-description {
   padding-bottom: 5px;
+}
+#task-edit-form .center {
+  text-align: center;
+}
+
+.center [type=submit] {
+  margin-right: 1em;
+}
+
+.center .btn {
+  margin-left: 1em;
+}
+
+#task-edit-form .form-group:not(:first-child) {
+  margin-top: 15px;
+  margin-bottom: 23px;
+}
+
+#task-edit-form label {
+  display: block;
+}
+
+#task-edit-form h3 {
+  margin-bottom: 5px;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+#task-edit-form .radio {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .task-tags-row {
@@ -1541,9 +1631,9 @@ ul.task-tags > li {
   font-weight: normal;
 }
 
-#task-form fieldset aside a,
-#task-form fieldset aside a:hover,
-#task-form fieldset aside a:focus {
+aside a,
+aside a:hover,
+aside a:focus {
   color: #00FFFF;
   text-decoration: underline;
 }
@@ -1576,6 +1666,9 @@ ul.task-tags > li {
 
 #task-form .buttons .btn {
   margin-left: 24px;
+}
+#task-form .center {
+  text-align: center;
 }
 
 /**********************************
