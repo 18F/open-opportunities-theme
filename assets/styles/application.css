@@ -748,6 +748,11 @@ div.project-title {
   background-size: 100% 120px;
 }
 
+.task-activity-wrapper th:first-child,
+.task-createdactivity-wrapper th:first-child {
+  width: 70%;
+}
+
 #project-form input {
   margin: 5px 0 5px 0;
 }
