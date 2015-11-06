@@ -622,8 +622,25 @@ ul.password-rules {
   content: '';
   clear: both;
 }
+.activity-feed--item ul {
+  margin-left: 2.2em;
+}
+.activity-feed--badge {
+   background-position: center;
+   background-size: contain;
+   min-height: 50px;
+   width: 50px;
+}
 .activity-feed--avatars {
   margin-top: .3em;
+}
+.activity-feed--avatars::before,
+.activity-feed--avatars::after {
+  content: " ";
+  display: table;
+}
+.activity-feed--avatars::after {
+  clear: both;
 }
 .activity-feed--avatar {
    background-position: center;
@@ -663,6 +680,22 @@ ul.password-rules {
 /*****************
 =  PROFILES
 ******************/
+
+.profile-badges {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-badge {
+  display: inline-block;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.profile-badge img {
+  min-height: 70px;
+  width: 70px;
+}
 
 .profile-reset h1 {
   font-size: 1.8em;
@@ -1994,11 +2027,11 @@ aside a:focus {
    font-size: 1.5em;
    line-height: 34px;
  }
- 
+
  .nav-tabs > .export-button {
    line-height: 42px;
  }
- 
+
 /* PeopleMap */
 
 .country {
