@@ -8,9 +8,13 @@
   "home": {
     "logged_in_path": "/dashboard"
   },
+  "contact": {
+    "name": "openopps@gsa.gov",
+    "link": "mailto:openopps@gsa.gov"
+  },
   "browse": {
     "pageSize" : 27,
-    "useInfiniteScroll" : false 
+    "useInfiniteScroll" : false
   },
   "states" : [{"value": "draft", "label":"Draft"},
               {"value": "open", "label":"Open"},
